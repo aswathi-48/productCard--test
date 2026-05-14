@@ -35,13 +35,14 @@ saveBtn.addEventListener('click', ()=> {
         description : description
     };
 
-    let = allProducts = JSON.parse(localStorage.getItem('products')) || [];
+    let allProducts = JSON.parse(localStorage.getItem('products')) || [];
     
     allProducts.push(product);
 
     localStorage.setItem('products', JSON.stringify(allProducts));
 
     alert('product added');
+    window.location.href = '../index.html';
 
     nameInput.value = "";
     priceInput.value = "";

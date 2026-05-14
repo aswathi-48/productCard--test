@@ -83,3 +83,23 @@ body {
 .back-btn:hover {
     text-decoration: underline;
 }
+
+.card {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.image-section {
+    width: 180px;
+}
+
+.content-section {
+    flex: 1;
+}
+
+.actions {
+}
