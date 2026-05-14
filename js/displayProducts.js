@@ -56,5 +56,5 @@ function deleteProduct(id) {
 
 
 function editProduct() {
-    window.location.href = `../index.html${product.id}`
+    window.location.href = `edit.html?id=${id}`;
 }
