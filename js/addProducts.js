@@ -8,7 +8,7 @@ let quantityInput = document.getElementById('productQuantity');
 let descriptionInput = document.getElementById('productDescription');
 
 let saveBtn = document.getElementById('saveBtn');
-let cancelbtn = document.getElementById('cancelbtn');
+let cancelBtn = document.getElementById('cancelBtn');
 let backBtn = document.getElementById('backBtn');
 
 
@@ -52,9 +52,12 @@ saveBtn.addEventListener('click', ()=> {
 
 });
 
-cancelbtn.addEventListener('click', ()=> {
+cancelBtn.addEventListener('click', ()=> {
     
-    confirm('do you want to cancel?');
+    let cancel = confirm('do you want to cancel?');
+    if(cancel) {
+        window.location.href = '../index.html';
+    }
 });
 
 backBtn.addEventListener('click', ()=> {
