@@ -31,7 +31,7 @@ body {
 }
 
 .viewBtn {
-    background-color: orangered;
+    background-color: orange;
     color: white;
     padding: 10px;
     border: none;
@@ -39,7 +39,7 @@ body {
     cursor: pointer;
 }
 .viewBtn:hover {
-    background-color: rgb(190, 51, 0);
+    background-color: rgb(218, 141, 0);
 }
 
 .input {
@@ -90,11 +90,20 @@ body {
     padding: 30px;
     margin: 10px;
     border-radius: 10px;
+    align-items: flex-start;
     display: flex;
+    gap: 20px;
 }
 
 .image-section {
     width: 180px;
+}
+
+.image-section img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
 }
 
 .content-section {

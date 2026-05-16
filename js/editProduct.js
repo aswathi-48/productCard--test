@@ -8,6 +8,7 @@ let quantityInput = document.getElementById('productQuantity');
 let descriptionInput = document.getElementById('productDescription');
 
 let updateBtn = document.getElementById('updateBtn');
+let backBtn = document.getElementById('backBtn');
 
 let allProducts = JSON.parse(localStorage.getItem('products')) || [];
 
@@ -42,8 +43,12 @@ updateBtn.addEventListener('click', ()=> {
 
     window.location.href = '../index.html'
 
-
 });
+
+
+backBtn.addEventListener('click', ()=> {
+    window.location.href = '../pages/displayProducts.html'
+})
 
 
 

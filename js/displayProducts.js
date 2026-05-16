@@ -2,6 +2,8 @@
 
 let productList = document.getElementById('productsList');
 
+let backBtn = document.getElementById('backBtn');
+
 let allProducts = JSON.parse(localStorage.getItem('products')) || [];
 
 function displayProducts() {
@@ -53,6 +55,10 @@ function deleteProduct(id) {
 
     displayProducts();
 }
+
+backBtn.addEventListener('click', ()=> {
+    window.location.href = '../pages/addProducts.html'
+});
 
 
 function editProduct(id) {
