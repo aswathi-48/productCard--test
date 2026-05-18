@@ -3,9 +3,8 @@
 let addBtn = document.getElementById('addBtn');
 let viewBtn = document.getElementById('viewBtn');
 
-addBtn.addEventListener('click',()=> {
+addBtn.addEventListener('click' , ()=> {
     window.location.href ='../pages/addProducts.html'
-
 });
 
 viewBtn.addEventListener('click', ()=> {
