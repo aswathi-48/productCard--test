@@ -13,7 +13,7 @@ let backBtn = document.getElementById('backBtn');
 
 
 saveBtn.addEventListener('click', ()=> {
-    console.log("fgf");
+
     
     let name = nameInput.value;
     let price = priceInput.value;
@@ -63,7 +63,6 @@ cancelBtn.addEventListener('click', ()=> {
 });
 
 backBtn.addEventListener('click', ()=> {
-    console.log("aaa");
-    
+ 
     window.location.href = '../index.html';
 });
