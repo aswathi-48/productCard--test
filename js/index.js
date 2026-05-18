@@ -8,5 +8,5 @@ addBtn.addEventListener('click' ,()=> {
 });
 
 viewBtn.addEventListener('click', ()=> {
-    window.location.href ='./pages/displayProducts.html'
+    window.location.href ='../pages/displayProducts.html'
 });
