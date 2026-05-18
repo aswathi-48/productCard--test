@@ -47,7 +47,7 @@ updateBtn.addEventListener('click', ()=> {
 
 
 backBtn.addEventListener('click', ()=> {
-    window.location.href = 'displayProducts.html'
+    window.location.href = './displayProducts.html'
 })
 
 
