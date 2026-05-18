@@ -57,10 +57,10 @@ function deleteProduct(id) {
 }
 
 backBtn.addEventListener('click', ()=> {
-    window.location.href ='../pages/addProduct.html'
+    window.location.href ='addProduct.html'
 });
 
 
 function editProduct(id) {
-    window.location.href = `/pages/editProduct.html?id=${id}`;
+    window.location.href = `editProduct.html?id=${id}`;
 }
